@@ -5,10 +5,11 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
-      <CharacterEditor />
-      <Footer />
-    </>
+      <>
+          <div className="perspective-wrapper"></div>
+          <CharacterEditor/>
+          <Footer/>
+      </>
   );
 }
 
